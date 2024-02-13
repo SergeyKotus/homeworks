@@ -1,3 +1,0 @@
-H:/Otus/HomeWork3/Build/CMakeFiles/guess_the_number.dir
-H:/Otus/HomeWork3/Build/CMakeFiles/edit_cache.dir
-H:/Otus/HomeWork3/Build/CMakeFiles/rebuild_cache.dir
