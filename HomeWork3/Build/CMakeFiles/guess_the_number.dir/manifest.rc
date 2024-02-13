@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "H:/Otus/HomeWork3/Build/CMakeFiles/guess_the_number.dir/embed.manifest"

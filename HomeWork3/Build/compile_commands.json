@@ -1,0 +1,26 @@
+[
+{
+  "directory": "H:/Otus/HomeWork3/Build",
+  "command": "H:\\PROGRA~2\\MICROS~3\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\guess_the_number.dir\\main.cpp.obj /FdTARGET_COMPILE_PDB /FS -c H:\\Otus\\HomeWork3\\main.cpp",
+  "file": "H:\\Otus\\HomeWork3\\main.cpp",
+  "output": "CMakeFiles\\guess_the_number.dir\\main.cpp.obj"
+},
+{
+  "directory": "H:/Otus/HomeWork3/Build",
+  "command": "H:\\PROGRA~2\\MICROS~3\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\guess_the_number.dir\\GameResult.cpp.obj /FdTARGET_COMPILE_PDB /FS -c H:\\Otus\\HomeWork3\\GameResult.cpp",
+  "file": "H:\\Otus\\HomeWork3\\GameResult.cpp",
+  "output": "CMakeFiles\\guess_the_number.dir\\GameResult.cpp.obj"
+},
+{
+  "directory": "H:/Otus/HomeWork3/Build",
+  "command": "H:\\PROGRA~2\\MICROS~3\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\guess_the_number.dir\\Play.cpp.obj /FdTARGET_COMPILE_PDB /FS -c H:\\Otus\\HomeWork3\\Play.cpp",
+  "file": "H:\\Otus\\HomeWork3\\Play.cpp",
+  "output": "CMakeFiles\\guess_the_number.dir\\Play.cpp.obj"
+},
+{
+  "directory": "H:/Otus/HomeWork3/Build",
+  "command": "H:\\PROGRA~2\\MICROS~3\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1438~1.331\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /FoCMakeFiles\\guess_the_number.dir\\Records.cpp.obj /FdTARGET_COMPILE_PDB /FS -c H:\\Otus\\HomeWork3\\Records.cpp",
+  "file": "H:\\Otus\\HomeWork3\\Records.cpp",
+  "output": "CMakeFiles\\guess_the_number.dir\\Records.cpp.obj"
+}
+]
