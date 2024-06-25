@@ -87,15 +87,15 @@ int main()
     showContainerContent(v2);
     v1 = std::move(v2);
     showContainerContent(v1);
-    showContainerContent(v2);    
+    showContainerContent(v2);   
+    std::cout << std::endl; 
 
     MyList<int> l;
     testContainer(l, "MyList");
     MyVector<int> v;
     testContainer(v, "MyVector");
 
-    {
-        //MyVector<std::string> c;
+    {        
         MyVector<std::string> c;
         c.push_back("sdff");
         c.push_back("azc");
