@@ -43,14 +43,14 @@ target_link_libraries(
 
 set_target_properties(test_containers PROPERTIES CXX_STANDARD 17 CXX_STANDARD_REQUIRED ON)
 
-# if (MSVC)
-#     target_compile_options(
-#         test_containers PRIVATE
-#         /W4
-#     )    
-# else ()
-#     target_compile_options(
-#         test_containers PRIVATE
-#         -Wall -Wextra -pedantic -Werror
-#     )    
-# endif()
+if (MSVC)
+    target_compile_options(
+        test_containers PRIVATE
+        /W4
+    )    
+else ()
+    target_compile_options(
+        test_containers PRIVATE
+        -Wall -Wextra -pedantic -Werror
+    )    
+endif()
