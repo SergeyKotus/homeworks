@@ -38,7 +38,7 @@ target_include_directories(
 # Link test target against gtest libraries
 target_link_libraries(
     test_containers PRIVATE
-    gtest gmock
+    gtest
 )
 
 set_target_properties(test_containers PROPERTIES CXX_STANDARD 17 CXX_STANDARD_REQUIRED ON)

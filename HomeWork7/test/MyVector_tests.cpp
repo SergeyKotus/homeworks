@@ -1,5 +1,4 @@
 #include <gtest/gtest.h>
-#include <gmock/gmock.h>
 #include "MyVector.hpp"
 
 TEST(MyVector, create)
