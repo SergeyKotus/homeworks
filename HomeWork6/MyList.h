@@ -239,6 +239,8 @@ typename MyList<T>::iterator MyList<T>::erase(iterator pos)
     MyListNode<T>* nextNode = pos.node->next;
     if(pos != this->begin())
         pos.node->prev->next = nextNode;
+    else
+        this->root = nextNode;
     nextNode->prev = pos.node->prev;        
     delete pos.node;    
     this->size--;
