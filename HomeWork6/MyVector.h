@@ -26,7 +26,7 @@ public:
     friend bool operator==(const MyVectorIterator& lhs, const MyVectorIterator& rhs) {return lhs.ptr == rhs.ptr;}
     friend bool operator!=(const MyVectorIterator& lhs, const MyVectorIterator& rhs) {return lhs.ptr != rhs.ptr;}
     friend difference_type operator-(const MyVectorIterator& lhs, const MyVectorIterator& rhs) {return (lhs.ptr - rhs.ptr);}
-    friend bool operator<(const MyVectorIterator& lhs, const MyVectorIterator& rhs) {return (lhs - rhs) > 0;}
+    friend bool operator<(const MyVectorIterator& lhs, const MyVectorIterator& rhs) {return (lhs - rhs) < 0;}
 };
 
 template <typename T>
