@@ -1,3 +1,5 @@
+#ifndef _MY_VECTOR_
+#define _MY_VECTOR_
 #include <string>
 
 template <typename T>
@@ -272,3 +274,5 @@ void MyVector<T>::swap(MyVector<T>& other)
         std::swap(this->values, other.values);
     }
 }
+
+#endif

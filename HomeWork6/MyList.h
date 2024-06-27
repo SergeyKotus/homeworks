@@ -1,3 +1,5 @@
+#ifndef _MY_LIST_
+#define _MY_LIST_
 #include <string>
 
 template <typename T>
@@ -274,3 +276,5 @@ void MyList<T>::swap(MyList<T>& other)
         std::swap(this->size, other.size);
     }
 }
+
+#endif
