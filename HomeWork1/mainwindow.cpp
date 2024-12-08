@@ -1,7 +1,5 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-//#include "mypicturemodel.h"
-
 #include <QDebug>
 
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWindow)
@@ -9,8 +7,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     image16 = new QImage(":/prefix/images/picture16.png");
     image32 = new QImage(":/prefix/images/picture32.png");
 
-    ui->setupUi(this);
-    //ui->picture->setPixmap(QPixmap::fromImage(*image16));
+    ui->setupUi(this);    
     model1 = new MyPictureModel(image16);
     model2 = new MyPictureModel(image32);
     this->ui->tableView->setModel(model1);
@@ -29,12 +26,13 @@ MainWindow::~MainWindow()
     delete ui;
     delete image16;
     delete image32;
+
+    delete model1;
+    delete model2;
 }
 
 void MainWindow::updatePicture()
-{
-    //qDebug() << "updatePicture";
-    //ui->picture->setPixmap(QPixmap::fromImage(*image));
+{    
     ui->picture->setPixmap(QPixmap::fromImage(*(dynamic_cast<MyPictureModel*>(ui->tableView->model()))->getImage()));
 }
 

@@ -5,6 +5,8 @@
 #include <QObject>
 #include <QImage>
 
+#include <QDebug>
+
 
 class MyPictureModel : public QAbstractTableModel
 {
@@ -13,6 +15,7 @@ class MyPictureModel : public QAbstractTableModel
     QImage* image;
 public:
     MyPictureModel(QImage *image);
+    ~MyPictureModel(){qDebug() << "Destructor";}
     QImage* getImage();
     virtual int rowCount(const QModelIndex &parent) const override;
     virtual int columnCount(const QModelIndex &parent) const override;
