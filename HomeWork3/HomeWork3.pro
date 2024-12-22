@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui sql
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -16,21 +16,26 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    CountSlider.cpp \
+    TwoTableModel.cpp \
     main.cpp \
-    mainwindow.cpp \
-    mypicturemodel.cpp
+    mainwindow.cpp
 
 HEADERS += \
-    mainwindow.h \
-    mypicturemodel.h
+    CountDelegate.h \
+    CountSlider.h \
+    DelProxyModel.h \
+    DogsModel.h \
+    FoodModel.h \
+    ProductDelegate.h \
+    TwoTableModel.h \
+    mainwindow.h
 
 FORMS += \
+    countslider.ui \
     mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
-
-RESOURCES += \
-    res.qrc
